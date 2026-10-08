@@ -1,0 +1,126 @@
+{
+  "project": "web-dev-journey",
+  "path": "C:\\Users\\hp\\Documents\\web-dev-journey",
+  "startedAt": "2026-10-05T12:03:15Z",
+  "currentLesson": 3,
+  "currentLessonTitle": "Git + GitHub",
+  "inProgress": {
+    "lesson": 2,
+    "title": "HTML + CSS Landing Page",
+    "homeworkDone": true,
+    "lesson2HomeworkDone": true,
+    "lesson2HomeworkVerifiedAt": "2026-10-08T22:05:28Z",
+    "lesson2HomeworkResult": "User created Islam Home landing page in web-dev-journey/src/ (index.html + style.css). Customized title, hero text, cards, colors. Also created Dating Sole in socialApp/ as bonus.",
+    "lastActionAt": "2026-10-08T22:05:28Z",
+    "lastAction": "User confirmed Lesson 2 homework complete with yes."
+  },
+  "completedLessons": [
+    {
+      "lesson": 1,
+      "title": "Tools Setup",
+      "completedAt": "2026-10-06T20:31:54Z",
+      "homeworkResult": "node v24.21.0, npm 11.6.2, git 2.45.1.windows.1"
+    },
+    {
+      "lesson": 2,
+      "title": "HTML + CSS Landing Page",
+      "completedAt": "2026-10-08T22:05:28Z",
+      "homeworkResult": "Islam Home landing page in web-dev-journey/src/"
+    }
+  ],
+  "checkpoints": [
+    {
+      "at": "2026-10-08T22:05:28Z",
+      "lesson": 3,
+      "title": "Git + GitHub",
+      "what": "Lesson 2 completed. User created Islam Home landing page in web-dev-journey/src/ (index.html + style.css). Advancing to Lesson 3."
+    },
+    {
+      "at": "2026-10-06T19:56:13Z",
+      "lesson": 1,
+      "title": "Tools Setup",
+      "what": "Restarted Lesson 1 from scratch per user request. Awaiting tool installation."
+    },
+    {
+      "at": "2026-10-05T15:01:05Z",
+      "lesson": 0,
+      "title": "Setup Guide",
+      "what": "Created SETUP_GUIDE.md with complete setup checklist and communication rules. Awaiting user confirmation to start Lesson 1."
+    },
+    {
+      "at": "2026-10-05T15:31:00Z",
+      "lesson": 0,
+      "title": "Mechanisms Added",
+      "what": "Added confidenceProtocol, questions.md, and tags to references.json for better tracking and topic discovery."
+    },
+    {
+      "at": "2026-10-05T14:57:51Z",
+      "lesson": 1,
+      "title": "Tools Setup",
+      "what": "User indicated lesson 1 not yet complete; reset to lesson 1 pending confirmation."
+    },
+    {
+      "at": "2026-10-05T14:19:02Z",
+      "lesson": 1,
+      "title": "Tools Setup",
+      "what": "Verified tools: node v24.11.0, npm 11.6.2, git 2.45.1.windows.1. Lesson 1 homework marked done."
+    },
+    {
+      "at": "2026-10-05T14:07:41Z",
+      "lesson": 2,
+      "title": "HTML + CSS landing page",
+      "what": "Set up REFERENCE protocol (references.json, REFERENCE_PROTOCOL.md). Lesson state unchanged."
+    },
+    {
+      "at": "2026-10-05T13:58:37Z",
+      "lesson": 2,
+      "title": "HTML + CSS landing page",
+      "what": "Set up WAIT protocol (control.json + WAIT_PROTOCOL.md). Lesson state unchanged."
+    },
+    {
+      "at": "2026-10-05T13:38:38Z",
+      "lesson": 2,
+      "title": "HTML + CSS landing page",
+      "what": "Answered differentiation question; lesson state unchanged."
+    },
+    {
+      "at": "2026-10-05T13:19:00Z",
+      "lesson": 2,
+      "title": "HTML + CSS landing page",
+      "what": "Wrote lessons/02-html-css-landing.md, src/index.html, src/style.css. Lesson files and source code saved on disk."
+    },
+    {
+      "at": "2026-10-05T12:03:15Z",
+      "lesson": 1,
+      "title": "Tools Setup",
+      "what": "Wrote progress.json, README.md, lessons/01-setup.md. Project workspace created."
+    },
+    {
+      "at": "2026-10-05T16:02:44Z",
+      "lesson": 0,
+      "title": "Questions Export",
+      "what": "Created all-questions-today.txt and all-questions-today.pdf with every question asked today (no answers)."
+    },
+    {
+      "at": "2026-10-05T16:42:13Z",
+      "lesson": 0,
+      "title": "Manual Code Protocol",
+      "what": "Created MANUAL_CODE_PROTOCOL.md so you type all code yourself while I explain meaning and purpose."
+    }
+  ],
+  "instructions": "To resume ANY time: open this folder in VS Code, then tell me 'continue'. I will read state.json and pick up at currentLesson. To jump ahead, edit currentLesson in state.json. Questions asked do NOT advance the lesson. CONFIRMATION PROTOCOL: I will ALWAYS ask 'Have you completed the homework for Lesson N? Reply yes or no.' before advancing. Only 'yes' marks the lesson complete and increments currentLesson. CONFIDENCE PROTOCOL: After each lesson I will ask you to rate your confidence (1-5) and a quick check; I'll record it here.",
+  "waitProtocol": {
+    "enabled": true,
+    "waitKeyword": "wait",
+    "resumeKeyword": "pass on",
+    "active": false,
+    "pausedAt": null,
+    "pausedDuring": null,
+    "note": "When user says 'wait', set active=true and pausedAt=now. When user says 'pass on', set active=false and resume the interrupted response. Lesson state NEVER changes during a wait."
+  },
+  "confidenceProtocol": {
+    "enabled": true,
+    "confidenceKeyword": "confident",
+    "note": "After each lesson you'll be asked a simple confidence question and a 1-5 rating. I'll store the answer in this file. This helps us know how well you grasp the material."
+  }
+}

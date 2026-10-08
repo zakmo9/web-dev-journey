@@ -1,0 +1,16 @@
+{
+  "title": "Web Dev Journey: JavaScript Full-Stack + Real-Time App",
+  "startedAt": "2026-10-05",
+  "currentLesson": 1,
+  "currentLessonTitle": "Tools Setup",
+  "completedLessons": [],
+  "projectRoot": "C:\\Users\\hp\\Documents\\web-dev-journey",
+  "stack": ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Node.js", "Express", "MongoDB", "Socket.IO", "Expo (mobile)"],
+  "resumeNote": "Open progress.json to see where you left off. Edit currentLesson to jump to a lesson.",
+  "files": {
+    "progress": "progress.json",
+    "lessons": "lessons/",
+    "source": "src/",
+    "readme": "README.md"
+  }
+}

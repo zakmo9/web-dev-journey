@@ -1,0 +1,62 @@
+{
+  "_instructions": "This is the master index of every lesson and topic. Use 'reference <chapter> <topic>' to ask me to explain anything from any lesson, connected to the current lesson.",
+  "project": "web-dev-journey",
+  "lastUpdated": "2026-10-05T15:01:05Z",
+  "currentLesson": 1,
+  "lessons": {
+    "1": {
+      "number": 1,
+      "title": "Tools Setup",
+      "file": "lessons/01-setup.md",
+      "topics": {
+        "nodejs": "Node.js installation and verification (node -v). Gives us a mini computer program runner so our website can do things. (tags: node, javascript, runtime)",
+        "npm": "npm = the robot that fetches extra LEGO pieces (packages). Comes with Node.js. (tags: node, packages, install)",
+        "vscode": "Visual Studio Code = the notebook where we write all our code. (tags: editor, code, terminal)",
+        "git": "Git = the magic undo button that remembers every version of our work. (tags: version, history, undo)",
+        "github": "GitHub account = Google Drive for code, helps show work to others.",
+        "terminal": "Terminal = text box for giving the computer commands.",
+        "port": "Port = a number that says 'this website lives here' (apartment number).",
+        "server": "Server = a computer or program that sends and receives data.",
+        "setup": "Setup guide covering tools, communication commands, and confirmation workflow before starting the journey.",
+        "typescript": "TypeScript = JavaScript with type safety. Catches bugs before runtime. (tags: typescript, types)",
+        "react": "React = library for building interactive UIs. Lets us make reusable components. (tags: javascript, frontend)",
+        "node-express": "Node.js + Express = backend server that runs JavaScript outside the browser. (tags: backend, server)",
+        "postgresql": "PostgreSQL = relational database with SQL. Stores user data, posts, etc. (tags: database, sql)",
+        "docker": "Docker = packages the app + its environment so it runs anywhere. (tags: devops, deployment)",
+        "expo": "Expo = tool to turn React into a mobile app (iOS/Android). (tags: mobile, react-native)",
+        "testing": "Testing (Vitest/Jest) = automated checks that our code works. (tags: quality, bug-catching)",
+        "ci-cd": "GitHub Actions = automatically run tests and deploy on every push. (tags: automation, deploy)"
+      },
+      "keywords": ["node", "npm", "vs code", "git", "github", "install", "terminal", "setup", "tools", "setupguide", "typescript", "react", "postgresql", "docker", "expo", "testing", "ci-cd"]
+    },
+    "2": {
+      "number": 2,
+      "title": "HTML + CSS landing page",
+      "file": "lessons/02-html-css-landing.md",
+      "topics": {
+        "html": "HTML = Hyper Text Markup Language. The skeleton of a webpage. Says WHAT is on the page.",
+        "css": "CSS = Cascading Style Sheets. The clothes of a webpage. Says HOW it looks.",
+        "tags": "HTML tags like <h1>, <p>, <a>, <button>, <div>, <img> that wrap content.",
+        "doctype": "<!DOCTYPE html> tells the browser this is HTML5.",
+        "viewport": "<meta name='viewport'> makes the page shrink properly on phones.",
+        "class": "class = a label we use in CSS to style a box.",
+        "flex": "display: flex = arrange boxes in a row (like arranging toys).",
+        "grid": "display: grid = arrange boxes in rows AND columns (like a chessboard).",
+        "media": "@media (max-width: 600px) = rules that only apply when the screen is smaller than 600px.",
+        "responsive": "Responsive design = the page adapts to mobile width.",
+        "landing": "Landing page = the first page visitors see, designed to get them to sign up.",
+        "card_grid": "A grid of cards showing features (Live Updates, Trusted Sitters, Pay Simple).",
+        "navbar": "Navigation bar at the top with logo and links.",
+        "hero": "The big banner section with a headline, description, and call-to-action button."
+      },
+      "keywords": ["html", "css", "landing", "responsive", "flex", "grid", "media", "tags", "class", "hero", "navbar", "card"]
+    }
+  },
+  "referenceFormat": "reference <chapter-number> <topic-keyword>",
+  "examples": [
+    "reference 1 nodejs",
+    "reference 2 css",
+    "reference 2 responsive",
+    "reference 1 git"
+  ]
+}
