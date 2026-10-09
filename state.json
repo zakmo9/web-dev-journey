@@ -5,14 +5,18 @@
   "currentLesson": 3,
   "currentLessonTitle": "Git + GitHub",
   "inProgress": {
-    "lesson": 2,
-    "title": "HTML + CSS Landing Page",
-    "homeworkDone": true,
-    "lesson2HomeworkDone": true,
-    "lesson2HomeworkVerifiedAt": "2026-10-08T22:05:28Z",
-    "lesson2HomeworkResult": "User created Islam Home landing page in web-dev-journey/src/ (index.html + style.css). Customized title, hero text, cards, colors. Also created Dating Sole in socialApp/ as bonus.",
-    "lastActionAt": "2026-10-08T22:05:28Z",
-    "lastAction": "User confirmed Lesson 2 homework complete with yes."
+    "lesson": 3,
+    "title": "Git + GitHub",
+    "homeworkDone": false,
+    "gitRepoInitialized": true,
+    "gitRemoteAdded": true,
+    "initialCommit": "ed805bb Initial commit: Islam Home landing page (HTML + CSS)",
+    "githubRepoCreated": true,
+    "githubRepoURL": "https://github.com/zakmo9/web-dev-journey.git",
+    "blocker": "GitHub no longer supports password authentication. Need Personal Access Token (PAT).",
+    "nextStep": "User must create PAT at github.com/settings/tokens (scopes: repo), then run: git push -u origin main",
+    "lastActionAt": "2026-10-08T23:28:59Z",
+    "lastAction": "Git remote added. Push failed - password auth not supported. User needs to create PAT."
   },
   "completedLessons": [
     {
@@ -30,10 +34,10 @@
   ],
   "checkpoints": [
     {
-      "at": "2026-10-08T22:05:28Z",
+      "at": "2026-10-08T23:28:59Z",
       "lesson": 3,
       "title": "Git + GitHub",
-      "what": "Lesson 2 completed. User created Islam Home landing page in web-dev-journey/src/ (index.html + style.css). Advancing to Lesson 3."
+      "what": "Git repo initialized, remote added (https://github.com/zakmo9/web-dev-journey.git), initial commit made (ed805bb). Push blocked: GitHub requires Personal Access Token (PAT) - password auth no longer supported. Awaiting PAT creation."
     },
     {
       "at": "2026-10-06T19:56:13Z",
